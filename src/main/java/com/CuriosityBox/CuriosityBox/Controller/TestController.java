@@ -10,6 +10,7 @@ public class TestController {
 
 
     // This is the testing cotroller
+     @CrossOrigin(origins = "*")
     @GetMapping(path = "/hi")
     public String hi(){
         return "Hi Guys";
